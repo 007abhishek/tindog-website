@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+
+/* Title Section */
+
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-left: 5.2rem;
+  position: absolute;
+}
+
+
+
+
+/* Downlod Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.features-box {
+  padding: 5%;
+}
+.features-img {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+@media (max-width: 1172px) {
+  .title-img {
+    position: static;
+    transform: none;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.heart{
+  color: #ff4c68;
+}
+
+.footer-butont{
+  border: none;
+  background: none;
+}
+.footer-butont:hover{
+  color: white;
+  background: black;
+}
